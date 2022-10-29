@@ -1,6 +1,6 @@
    * {       
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 
@@ -2328,7 +2328,7 @@
     .footer-index {
         position: absolute;
         padding: 32px;
-        padding-right: 2000px;
+        padding-right: 1871px;
         margin-top: 765px;
         margin-bottom: -20px;
         background-color: black;
