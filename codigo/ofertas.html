@@ -41,7 +41,7 @@
                             </li>
                     
                             
-                            <li class="nav-item" id="header-secciones">
+                            <li class="nav-item" id="header-active">
                                 <a class="nav-link" id="header-secciones-principal" href="ofertas.html">OFERTAS</a>
                             </li>
                     
@@ -67,7 +67,7 @@
 
 
     <!--------------------------------------------------------Main--------------------------------------------------------------->
-    <main>
+    <main class="container">
         <div id="ofertas">
 
                 <!--Titulo-->
@@ -75,7 +75,7 @@
                 <!--Titulo-->
 
                 <!--Inicio Parrafo-->
-            <section class="parrafo-ofertas">
+            <section class="parrafo-ofertas" id="scale-ofertas">
                 <nav>
                     <ul>
                         <li>30% de descuento si compras 2 pizzas grades.</li>
@@ -93,36 +93,48 @@
 
 
     
-    <!--------------------------------------------------Inicio Footer-------------------------------------------------------------->
-    <footer class="footer-index" id="footer-correcto-registro">
-        <nav>
+        <!--------------------------------------------------Inicio Footer-------------------------------------------------------------->
+        <footer class="footer-index">
 
+            <nav class="navbar navbar-expand-lg bg-black text-white estilo-font navbar-dark">
+                <div class="container-fluid">
+    
+                    <div class="collapse navbar-collapse text-white" id="navbarScroll">
+                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+    
+    
+                            <section id="redes-sociales" class="nav-item">
+    
+                                    <div class="logos-redes-sociales">
+                                        <img id="logo-instagram" class="logo-instagram-2" src="imagenes-html/Instagram_logo_2016.svg.webp" alt="logo de instagram">
+                                        <img id="logo-facebook" class="logo-facebook-2" src="imagenes-html/Facebook_f_logo_(2019).svg.webp" alt="logo de facebook">
+                                    </div>
+                
+                                    <div id="border-top-redes-sociales">
+                                        <li><a id="instagram" class="nav-item" href="https://www.instagram.com/marino_arg/" target="_blank">Instagram</a>
+                                        </li>
+                
+                                        <li><a id="facebook" class="nav-item" href="https://www.facebook.com/marinovillacrespo991/ " target="_blank">Facebook</a>
+                                        </li>
+                                    </div>
+                            </section>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+                    <div class="by-ian-sznurewicz">
+                        <p><i>By: Ian Sznurewicz</i></p>
+                    </div>
+        <nav>
+    
                 <!--Inicio Logos / imagenes-->
             <img id="logo-pizz-speed" src="imagenes-html/Imagen Logo.png" alt="">
                 <!--Final Logos / imagenes-->
-
-            <section id="redes-sociales">
-                <ul>
-                    <li><a id="instagram" href="https://www.instagram.com/marino_arg/" target="_blank">Instagram</a>
-                    </li>
-
-                    <div class="logos-redes-sociales">
-                        <img id="logo-instagram" class="logo-instagram-2" src="imagenes-html/Instagram_logo_2016.svg.webp" alt="logo de instagram">
-                        <img id="logo-facebook" class="logo-facebook-2" src="imagenes-html/Facebook_f_logo_(2019).svg.webp" alt="logo de facebook">
-                    </div>
-
-                    <li><a id="facebook" href="https://www.facebook.com/marinovillacrespo991/ " target="_blank">Facebook</a>
-                    </li>
-                </ul>
-            </section>
-
-            <div class="by-ian-sznurewicz">
-                <p><i>By: Ian Sznurewicz</i></p>
-            </div>
-        </nav>
-    </footer>
-    <!--------------------------------------------------Final Footer-------------------------------------------------------------->
+            
     
+        </nav>
+        </footer>
+        <!--------------------------------------------------Final Footer-------------------------------------------------------------->
                             <!--Estilos Fonts-->
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,600&display=swap');

@@ -36,7 +36,7 @@
                             <a class="nav-link" id="header-secciones-principal" href="menu.html">MENU</a>
                             </li>
                     
-                            <li class="nav-item" id="header-secciones">
+                            <li class="nav-item" id="header-active">
                                 <a class="nav-link" id="header-secciones-principal" href="contactos.html">CONTACTOS</a>
                             </li>
                     
@@ -73,15 +73,13 @@
             <div class="formulario-registro" id="formulario-contactos">
 
                     <!--Inicio Formulario-->
-                <form class="formulario-contactos-0" action="formulario-contacto.html"><label for="formulario-contacto">
+                <form id="formulario-contactos-0" action="formulario-contacto.html"><label for="formulario-contacto">
                     <h2>Contacto</h2></label>
-                    <input class="input-1" id="input-1-contactos" type="number" name="nombre y apellido" id="nombre y apellido" placeholder="Telefono">
-                <form action="formulario-contacto.html">
-                    <input class="input-1" id="input-1-contactos" type="email" name="gmail" id="gmail" placeholder="Gmail">
-                <form action="formulario-contacto.html">
-                    <input class="input-1" id="input-1-contactos" type="text" name="contraseña" id="contraseña" placeholder="Informacion a Comunicar">
-                <form action="formulario-contacto.html">
-                    <input class="input-2" id="input-2-contactos" type="submit" name="registro" id="registro" value="Enviar">
+                    <input class="input-1-contactos-2" id="input-1-contactos" type="text" name="name and surname" id="nombre y apellido" placeholder="Nombre y Apellido">
+                    <input class="input-1-contactos-2" id="input-1-contactos" type="number" name="telefon" id="Telefono" placeholder="Telefono">
+                    <input class="input-1-contactos-2" id="input-1-contactos" type="email" name="gmail" id="gmail" placeholder="Gmail">
+                    <input class="input-1-contactos-2" id="input-1-contactos" type="text" name="contraseña" id="contraseña" placeholder="Informacion a Comunicar">
+                    <input class="input-2-contactos-2" id="input-2-contactos" type="submit" name="registro" id="registro" value="Enviar">
                     <!--Final Formulario-->
             </div>
 
@@ -163,32 +161,45 @@
 
 
     <!--------------------------------------------------Inicio Footer-------------------------------------------------------------->
-    <footer class="footer-index">
-        <nav>
+    <footer class="footer-index" id="footer-contactos">
 
-                <!--Inicio Logos / imagenes-->
-            <img id="logo-pizz-speed" src="imagenes-html/Imagen Logo.png" alt="">
-                <!--Final Logos / imagenes-->
+        <nav class="navbar navbar-expand-lg bg-black text-white estilo-font navbar-dark">
+            <div class="container-fluid">
 
-            <section id="redes-sociales">
-                <ul>
-                    <li><a id="instagram" href="https://www.instagram.com/marino_arg/" target="_blank">Instagram</a>
-                    </li>
+                <div class="collapse navbar-collapse text-white" id="navbarScroll">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
 
-                    <div class="logos-redes-sociales">
-                        <img id="logo-instagram" class="logo-instagram-2" src="imagenes-html/Instagram_logo_2016.svg.webp" alt="logo de instagram">
-                        <img id="logo-facebook" class="logo-facebook-2" src="imagenes-html/Facebook_f_logo_(2019).svg.webp" alt="logo de facebook">
-                    </div>
 
-                    <li><a id="facebook" href="https://www.facebook.com/marinovillacrespo991/ " target="_blank">Facebook</a>
-                    </li>
-                </ul>
-            </section>
+                        <section id="redes-sociales" class="nav-item">
 
-            <div class="by-ian-sznurewicz">
-                <p><i>By: Ian Sznurewicz</i></p>
+                                <div class="logos-redes-sociales">
+                                    <img id="logo-instagram" class="logo-instagram-2" src="imagenes-html/Instagram_logo_2016.svg.webp" alt="logo de instagram">
+                                    <img id="logo-facebook" class="logo-facebook-2" src="imagenes-html/Facebook_f_logo_(2019).svg.webp" alt="logo de facebook">
+                                </div>
+            
+                                <div id="border-top-redes-sociales">
+                                    <li><a id="instagram" class="nav-item" href="https://www.instagram.com/marino_arg/" target="_blank">Instagram</a>
+                                    </li>
+            
+                                    <li><a id="facebook" class="nav-item" href="https://www.facebook.com/marinovillacrespo991/ " target="_blank">Facebook</a>
+                                    </li>
+                                </div>
+                        </section>
+                    </ul>
+                </div>
             </div>
         </nav>
+                <div class="by-ian-sznurewicz">
+                    <p><i>By: Ian Sznurewicz</i></p>
+                </div>
+    <nav>
+
+            <!--Inicio Logos / imagenes-->
+        <img id="logo-pizz-speed" src="imagenes-html/Imagen Logo.png" alt="">
+            <!--Final Logos / imagenes-->
+        
+
+    </nav>
     </footer>
     <!--------------------------------------------------Final Footer-------------------------------------------------------------->
 
@@ -214,6 +225,8 @@
             @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,600&family=Poppins:wght@100&display=swap');
         </style>
         <!--Estilos Fonts-->
+
+        
 
             <!--BOOTSTRAP-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
